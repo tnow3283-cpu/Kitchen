@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Menu Abganister Amala</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <style>
+        .heading {
+            justify-content: space-between;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+        }
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .bac {
+            background-color: green;
+        }
+
+        .colo {
+            color: white
+        }
+
+        .bac {
+            background-image: url("../../assets/image/WhatsApp\ Image\ 2026-10-29\ at\ 10.23.50\ AM.jpeg");
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 212dvh;
+            height: 30dvh;
+        }
+
+        .font {
+            font-size: 50px;
+        }
+
+        .food-items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 130px;
+            margin-top: 10px;
+        }
+
+        .food-items button {
+            margin: 0;
+            padding: 10px 15px;
+            border-radius: 20px;
+        }
+
+        .food-items button:focus {
+            background-color: yellow;
+        }
+
+        .img-fluid {
+            width: 200px;
+            height: 200px;
+            display: flex;
+            position: relative;
+            border-radius: 20px;
+            gap: 20px;
+
+        }
+
+        .img-fluid img,
+        .img-fluid-sm img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <main class="display:column;">
+        <header class="heading bac row">
+            <div class="bac">
+                <h1 class="colo font">Our Menu</h1>
+                <h2 class="colo">Freshly prepared.Always delicious</h2>
+            </div>
+        </header>
+        <!-- first hero  -->
+        <section class="food-items row">
+            <div class="food-items button  focus">
+                <button type="button" onclick="location.href='#all'"> All</button>
+                <button type="button" onclick="location.href='#rice'">Rice Dishes</button>
+                <button type="button" onclick="location.href='#swallows'"> Swallows</button>
+                <button type="button" onclick="location.href='#soups'"> Soups</button>
+                <button type="button" onclick="location.href='#grills'"> Grills</button>
+                <button type="button" onclick="location.href='#protein'">Protein</button>
+                <button type="button" onclick="location.href='#drinks'"> Drinks</button>
+            </div>
+        </section>
+        <!--Section 2 -->
+        <section class="">
+            <div class="row">
+                <div>
+                    <span class="img-fluid">
+                        <img src="../../assets/image/Jollof 🍛.jpg" alt="Jollof Rice" width="300px" height="300px">
+                    </span>
+                    <h2>Jollof Rice</h2>
+                    <p>Classic Nigerian jollof rice with your choice of protein</p>
+                    <div class="food-price">
+                        <span>#3,500</span>
+                        <button onclick="location.href='cart.html'">🛒</button>
+                    </div>
+                </div>
+                <div>
+                    <span class="img-fluid">
+                        <img src="." alt="Jollof Rice" width="300px" height="300px">
+                    </span>
+                    <h2>Jollof Rice</h2>
+                    <p>Classic Nigerian jollof rice with your choice of protein</p>
+                </div>
+            </div>
+
+
+        </section>
+
+    </main>
+</body>
+
+</html>
